@@ -1,0 +1,355 @@
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 223, 227);
+}
+.header {
+    top: 0 ;
+    height: 60px;
+    color: white;
+    background-color: darkred;
+    position: fixed;
+}
+.name {
+    background-color: darkred;
+    font-size: larger;
+    font-family: 'Impact';
+    text-align: center;
+    line-height: 60px;
+}
+.btn {
+    display: none;
+}
+.close {
+    display: none;
+}
+.text {
+    font-family: monospace;
+}    
+@media (max-width: 739px) {
+    .text {
+        padding: 60px 0;
+        background-color: darkred;
+    }
+}
+#nav {
+    background-color: darkred;
+}
+.header #nav li {
+    line-height: 60px;
+    cursor: pointer;  
+    background-color:darkred;
+    text-align: center;
+}
+.header #nav li a {
+    padding: 22px 40%;
+    text-decoration: none;
+    background-color:darkred;
+    color: white;
+}
+#nav li:hover a {
+    color: darkred;
+    background-color:#ccc;
+}
+.info {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.myname {
+    padding-top: 20%;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 67px;
+    color: #FF8303;
+}
+.myjob {
+    padding-top: 7%;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;    
+    color: #af883f;
+    
+}
+.myinfo {
+    padding-top: 3%;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #b19b70;
+}
+.type {
+    font-family: 'Inconsolata';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(163, 87, 9, 0.5);
+    text-decoration: underline;
+    text-shadow: 1px 1px 5px rgb(239, 99, 99);
+    margin-top: 20px;
+
+}
+.aboutme {
+    display: flex;
+}
+@media (max-width: 740px) {
+    i {
+        display: none;
+    }
+    .fa-solid {
+        display: flex;
+    }
+}
+i {
+    font-size: 30px;
+    color: #0c559d; 
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+} 
+.para {
+    font-size: 20px;
+    color: #0c559d;
+    font-family: cursive;
+}
+.help {
+    padding: 20px;
+}
+/* skill */
+.skills {
+    margin-top: 9%;
+}
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;  
+    color: darkred;
+    font-family: monospace;
+}
+.icon {
+    margin-top: 5%;
+    text-align: center;
+}
+#iconss {
+    margin: 20px;
+    font-size: 100px;
+    padding: 50px 40px;
+    background-color: rgba(93, 119, 180, 0.286);
+}
+.nameoficon {
+    color: rgb(37, 52, 125);
+    font-size: 20px;
+    margin-top: 20%;
+    background-color: rgba(93, 119, 180, 0);
+}
+@media (max-width: 740px) {
+    .nameoficon {
+        margin-left: 20px; 
+        display: inline;
+    }
+    #iconss {
+        font-size: 30px;
+    }
+}
+/* project */
+.projects {
+    margin-top: 9%;
+}
+.textofproject {
+    margin-top: 5%;
+}
+.newsblog {
+    padding: 5%;
+    background-color: #e4f3fd;
+    text-align: center;
+    margin: 10px;
+}
+@media (min-width: 1113px) {
+    .imageofblog {
+        margin: 10px;
+        background: url(https://wallpaperaccess.com/full/650772.jpg) center / contain no-repeat;
+    }
+    .anotherimage {
+        display: none;
+    }
+}
+@media (max-width: 1112px) {
+    .imageofblog {
+        margin: 10px;
+    }
+}
+.first {
+    background-color: #e4f3fd;
+    font-family: 'FontAwesome';
+    font-weight: 700;
+    font-size: 150%;
+    color: #FF8303;
+}
+.sth {
+    background-color: #e4f3fd;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    line-height: 3;
+    color: #755c2d;
+}
+.afterline {
+    text-align: start;
+    padding-top: 15%;
+    margin-top: 10%;
+    border-top: 3px darkred solid;
+    background-color: #e4f3fd;
+}
+.quote {
+    background-color: #e4f3fd;
+    font-family: fantasy;
+    line-height: 17px;
+    color: #433925;
+}
+.see {
+    text-align: center;
+    margin-top: 20%;
+    padding: 10%;
+    font-family: monospace;
+    background-color: #FF8303;
+}
+.see:hover {
+    background-color: #7d7971;
+    color: white;
+    cursor: pointer;
+}
+/* contact */
+.contacts {
+    margin-bottom: 5%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.mycontacts {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    color: darkred;
+    font-family: monospace;
+}
+.bye {
+    font-family: 'Impact';
+    font-size: larger;
+    color: darkred;
+}
+.like  {
+    width: 80%;
+    font-family: monospace;
+    font-size: large;
+    margin-top: 10%;
+}
+.nameofcontact {
+    font-size: x-small;
+    margin-top: 5%;
+}
+.change {
+    padding: 0;
+}
+.change2 {
+    margin-top: 5%;
+}
+.how {
+    margin-right: 25%;
+}
+.how_1 {
+    margin-top: 4%;
+}
+.how_2 {
+    margin-top: 4%;
+}
+@media (max-width: 1112px) {
+    .bye {
+        text-align: center;
+    }
+    .like {
+        width: 100%;
+    }
+    .mycontacts {
+        text-align: center;
+        display: block;
+    }
+    .end_1 {
+        margin-top: 10%;
+    }
+}
+@media (max-width: 739px) {
+    .change {
+        display: contents;
+    }
+    .how {
+        flex-direction: column;
+        margin-right: 0 ;
+        align-items: center;
+    }
+    .btn {
+        display: block;
+    }
+    .one {
+        color: white;
+        background-color: darkred;
+        align-items: flex-end;
+    }
+    .text {
+        display: none;
+    }
+    .name {
+        text-align: start;
+        padding-left: 30px;
+    }
+    .close {
+        position: absolute;
+        display: block;
+        right: 0;
+        transform: translateX(100%);
+        animation: fadeIn linear 0.2s;
+    }
+    .text {
+        display: block;
+        transform: translateX(-110%);
+        position: absolute;
+        width: 100%;
+        right: 0;
+        top: 60px;
+    }
+    .header #nav li a {
+    padding: 22px 45%;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+.nav-input:checked ~ .overlay {
+    display: block;
+}
+.nav-input:checked ~ .text {
+    transform: translateX(0%);
+}
+.nav-input:checked ~ .close {
+    transform: translateX(0%);
+}
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
